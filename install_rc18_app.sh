@@ -34,8 +34,8 @@ PAYLOAD=$(cat <<EOF
   "developerUrl": "https://www.ambientelivre.com.br",
   "privacyPolicyUrl": "https://www.ambientelivre.com.br",
   "supportEmail": "suporte@ambientelivre.com.br",
-  "bot": "IngestionBot",
-  "appProperties": {
+  "bot": "ingestion-bot",
+  "appConfiguration": {
     "targetTag": "BACEN.RC18_Scope",
     "outputCustomProperty": "rc18_audit_summary",
     "minQualityScore": 90.0
